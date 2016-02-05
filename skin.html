@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,width=device-width,target-densitydpi=medium-dpi">
+	<meta name="description" content="Bryan Dongik Lee">
+	<title>[##_title_##] [##_page_title_##]</title>
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" />
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./images/font.css">
+	<!--[if lt IE 9]>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"</script>
+	<![endif]-->
+	<!--[if gte IE 9]><!-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<!--<![endif]-->
+	<script>
+	//단축키	
+var key=[];key.w="/admin/entry/post/";key.a="/admin";key.h="/";function getKey(b){if("INPUT"!=event.srcElement.tagName&&"TEXTAREA"!=event.srcElement.tagName){eventChooser=(isNetscape=document.layers)?b.which:event.keyCode;which=String.fromCharCode(eventChooser).toLowerCase();for(var a in key)which==a&&(window.location=key[a])}}document.onkeypress=getKey;
+	</script>
+</head>
+
+<body id="[##_body_id_##]">
+	<div id="wrapper">
+	<nav id="header" class="fixed-nav-bar">
+  <div id="menu" class="menu">
+    <a class="sitename" href="http://bryandlee.me">BRYAN DONGIK LEE</a>
+    <!-- fixed navigation menu  -->
+    <a class="show" href="#menu"><s class="bar"></s><s class="bar"></s><s class="bar"></s></a><a class="hide" href="#hidemenu"><s class="bar"></s><s class="bar"></s><s class="bar"></s></a>
+      <ul class="menu-items">
+  			<li class="about-button"><a href="/category/About">About</a></li>
+ 				<li class="projects-button"><a href="/category/Projects">Projects</a></li>
+ 				<li class="blog-button">
+    			<a href="/category/Blog">Blog</a>
+	    		<ul id="blog-category" class="blog-category">
+		  			<li><a href="/category/Blog/World">World</a></li>
+   	    		<li><a href="/category/Blog/Daily">Daily</a></li>
+ 		    		<li><a href="/category/Blog/etc.">etc.</a></li>
+     	</ul>
+	 </li>	
+ </ul>
+  </div>
+</nav>
+<div id="content" class="content">
+	<!-- TT-->
+	<s_list>
+	</s_list>
+	<div class="boxer"></div>
+	<!--About Page-->
+	<div id="about-page" style="display:none">
+	<style>.about-title{width:100%;font-family:Signika,'Nanum Gothic',sans-serif;font-weight:700;font-size:32px;text-align:center;background:#fff;color:#2e2e2e;margin-top:50px;margin-bottom:30px}.about-link{color:#357aa3}.about-main{font-family:'Noto Sans','Nanum Gothic',sans-serif;font-size:17px;line-height:180%;text-align:center;margin-bottom:0}.about-main a:hover{color:#5c5c5c}@media only screen and (max-width:800px){.about-title{font-size:25px}}</style><p class=about-title>Bryan Dongik Lee | 이동익</p><p class=about-main><img src=http://cfs.tistory.com/custom/blog/197/1971212/skin/images/about-image.jpg><br><br>#Inborn Engineer<br>was born in Irvine California, grew up in S.Korea<br>studying <a href=http://me.snu.ac.kr/ class=about-link>mechanical and aerospace engineering</a> at <a href=http://snu.ac.kr class=about-link>university</a><br>loves <a href=http://www.grimaldis.com/ class=about-link>pizza</a>, <a href=http://www.porsche.com/ class=about-link>cars</a>, <a href=http://www.warnerbros.com/inception class=about-link>movies</a>, and <a href=http://hiphople.com/ class=about-link>music</a><br></p><p style=text-align:center><a class=button-dark href=mailto:skyever97@gmail.com>Contact Me!</a><br><br></p>
+	</div>
+	<!--Main Container-->
+	<s_article_rep>
+		<s_index_article_rep>
+			<div id="listing" class="list-content">
+							<a href="[##_article_rep_link_##]" class="link-post">
+								<p class="tit_post">[##_article_rep_title_##]</p>
+								<div class="list-summary">
+								<s_article_rep_thumbnail>
+									<a href="[##_article_rep_link_##]" class="thumbnail-post"><img src="//i1.daumcdn.net/thumb/C150x150/?fname=[##_article_rep_thumbnail_raw_url_##]"></a>
+							</s_article_rep_thumbnail>
+								<p class="summary-post">[##_article_rep_summary_##]</p>
+									</div>
+							</a>
+						</div>
+		</s_index_article_rep>
+		<s_permalink_article_rep>
+			<div class="boxer"></div>
+			<div class="article">
+					<div class="article-title" >
+	  				<a class="article-title" href="[##_article_rep_link_##]">[##_article_rep_title_##]</a>
+					</div>		
+				<div class="article-desc">
+					[##_article_rep_desc_##]
+				</div>
+			</div>
+		</s_permalink_article_rep>
+	</s_article_rep>
+	<!--Paging-->
+	<s_paging>
+   	 <div  id="paging" class="area_paging">
+    	<span class="inner_paging">
+      <a [##_prev_page_##] class="btn_prev [##_no_more_prev_##]"><span class="ico_skin ico_prev"></span>Prev</a>
+    			<s_paging_rep>
+    	<a [##_paging_rep_link_##] class="link_page">[##_paging_rep_link_num_##]</a>
+    						</s_paging_rep>
+      <a [##_next_page_##] class="btn_next [##_no_more_next_##]">Next<span class="ico_skin ico_next"></span></a>
+    					</span>
+    				</div>
+    </s_paging>	
+</div>
+	<div id="footer">Copyright ?2015<br>All rights reserved by BDL</div>
+	</div>
+	<!--script-->
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+	var loca=location.pathname;
+		if("/category/About"==loca||"/category/about"==loca)
+			$("#paging").remove(),$("#listing").remove(),$("#about-page").show();
+	</script>
+			<!--
+			-->
+	</body>
+</html>
